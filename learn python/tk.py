@@ -75,10 +75,10 @@ ent.place(x=120,y=100)
 # ent=tk.Entry(main,bg="#d8ecf2",font=("arial",10))
 # ent.place(x=530,y=100)
 
-# lbl=tk.Label(main,text="Passing Year",bg="black",fg="white",font=("arial",10))
-# lbl.place(x=400,y=150)
-# ent=tk.Entry(main,bg="#d8ecf2",font=("arial",10))
-# ent.place(x=530,y=150)
+lbl=tk.Label(main,text="Passing Year",bg="black",fg="white",font=("arial",10))
+lbl.place(x=400,y=150)
+ent=tk.Entry(main,bg="#d8ecf2",font=("arial",10))
+ent.place(x=530,y=150)
 
 main.mainloop()
 
